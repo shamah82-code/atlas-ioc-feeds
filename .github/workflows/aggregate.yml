@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "Atlas IOC Bot"
           git config user.email "atlas-ioc-bot@users.noreply.github.com"
-          git add ips.txt domains.txt hashes.txt
+          git add ips.txt domains_*.txt hashes.txt
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

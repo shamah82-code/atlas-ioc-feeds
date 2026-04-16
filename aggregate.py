@@ -431,12 +431,17 @@ def main():
         f.write(f'# Sources: {stats["ip_feeds"]} IP feeds + {stats["mixed_feeds"]} mixed feeds\n')
         f.write('\n'.join(sorted_ips) + '\n')
 
-    with open('domains.txt', 'w') as f:
-        f.write(f'# Atlas Shield IOC — Malicious Domains\n')
-        f.write(f'# Generated: {time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}\n')
-        f.write(f'# Total: {len(sorted_domains)}\n')
-        f.write(f'# Sources: {stats["domain_feeds"]} domain feeds + {stats["mixed_feeds"]} mixed feeds\n')
-        f.write('\n'.join(sorted_domains) + '\n')
+    # Split domains into chunks of 500K to keep each file under 12MB for mobile download
+    CHUNK_SIZE = 500000
+    domain_chunks = [sorted_domains[i:i+CHUNK_SIZE] for i in range(0, len(sorted_domains), CHUNK_SIZE)]
+    for idx, chunk in enumerate(domain_chunks, 1):
+        fname = f'domains_{idx}.txt'
+        with open(fname, 'w') as f:
+            f.write(f'# Atlas Shield IOC — Malicious Domains (part {idx}/{len(domain_chunks)})\n')
+            f.write(f'# Generated: {time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}\n')
+            f.write(f'# Total in this file: {len(chunk)} (of {len(sorted_domains)} total)\n')
+            f.write('\n'.join(chunk) + '\n')
+        log.info(f'Wrote {fname}: {len(chunk):,} domains')
 
     with open('hashes.txt', 'w') as f:
         f.write(f'# Atlas Shield IOC — Malware Hashes\n')
