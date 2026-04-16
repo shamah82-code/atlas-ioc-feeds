@@ -1,0 +1,47 @@
+name: Aggregate IOC Feeds
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # Daily at 4:00 AM UTC
+  workflow_dispatch: {}    # Manual trigger from GitHub UI
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run aggregator
+        run: python aggregate.py
+
+      - name: Show results
+        run: |
+          echo "=== IP count ==="
+          wc -l ips.txt
+          head -5 ips.txt
+          echo ""
+          echo "=== Domain count ==="
+          wc -l domains.txt
+          head -5 domains.txt
+          echo ""
+          echo "=== Hash count ==="
+          wc -l hashes.txt
+          head -5 hashes.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "Atlas IOC Bot"
+          git config user.email "atlas-ioc-bot@users.noreply.github.com"
+          git add ips.txt domains.txt hashes.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily IOC update — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
