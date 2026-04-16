@@ -334,10 +334,14 @@ def parse_mixed(text):
         if not line or line.startswith('#'):
             continue
         token = line.split()[0] if line.split() else ''
+        token = token.split(':')[0]  # strip port (e.g. 1.2.3.4:8888)
         if IP_RE.match(token + ' '):
             octets = token.split('.')
-            if all(0 <= int(o) <= 255 for o in octets) and token not in SAFE_IPS:
-                ips.add(token)
+            try:
+                if all(0 <= int(o) <= 255 for o in octets) and token not in SAFE_IPS:
+                    ips.add(token)
+            except ValueError:
+                continue
         elif PLAIN_DOMAIN_RE.match(token) and token not in SAFE_DOMAINS:
             domains.add(token.lower())
     return ips, domains
