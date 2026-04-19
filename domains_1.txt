@@ -1,6 +1,6 @@
 # Atlas Shield IOC — Malicious Domains (part 1/6)
-# Generated: 2026-04-19 02:19 UTC
-# Total in this file: 500000 (of 2535682 total)
+# Generated: 2026-04-19 05:58 UTC
+# Total in this file: 500000 (of 2540928 total)
 0--9-9-8---7-77-7-7-6--65-5--4-3-3-3-2-1.com
 0--loook.net
 0-0-0-0-0-0-0-0-0-0-0-0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-0.info
@@ -21011,6 +21011,7 @@
 109826-108720.weeblysite.com
 109845fc50a5.top
 1098636384.corolain.ru
+10987.7zorelin.in.net
 109878256-00862.duckdns.org
 10988273633122.duckdns.org
 109888cm.nyashnyash.top
@@ -199176,6 +199177,7 @@ accubillcrm.com
 accubitaspace.click
 accubook.com.au
 accucconse.rest
+accucincag.cyou
 accucoop.com
 accueil-ag-modalm-fr.web.app
 accueil-creditagricolecaisse.web.app
@@ -219578,6 +219580,7 @@ aeed1bbdc726a2e4.com
 aeedb4f1e27ddb58a27d22256f00ac29-dot-solidstar-improts.uk.r.appspot.com
 aeeeai.gay
 aeeec.com
+aeeetiologies.info
 aeeeza.store
 aeefvwwjtoodaugy-dot-millinium.ey.r.appspot.com
 aeeg5idiuenbi7erger.com
@@ -251872,7 +251875,6 @@ alebilet.pl-oferta34529492.click
 alebilet.pl-oferta34819.cfd
 alebilet.pl-oferta34839269.sbs
 alebilet.pl-oferta3527909.icu
-alebilet.pl-oferta3538570.icu
 alebilet.pl-oferta356437.pl
 alebilet.pl-oferta3572612835-rtx-4070-super-pny-12-gb.sbs
 alebilet.pl-oferta3582556.space
@@ -253098,7 +253100,6 @@ alebilet.pl9591852123oferta.icu
 alebilet.pl9591852123oferta.sbs
 alebilet.pl96346887.cfd
 alebilet.pl96347993.cfd
-alebilet.pl96947261oferta.icu
 alebilet.pl99119.cfd
 alebilet.pl99133.cfd
 alebilet.pl99826341.click
@@ -262559,7 +262560,6 @@ allegro.pl-oferta3477213.shop
 allegro.pl-oferta34819.cfd
 allegro.pl-oferta34839269.sbs
 allegro.pl-oferta3527909.icu
-allegro.pl-oferta3538570.icu
 allegro.pl-oferta356437.pl
 allegro.pl-oferta3572612835-rtx-4070-super-pny-12-gb.sbs
 allegro.pl-oferta3582556.space
@@ -264074,7 +264074,6 @@ allegro.pl9591852123oferta.icu
 allegro.pl9591852123oferta.sbs
 allegro.pl96346887.cfd
 allegro.pl96347993.cfd
-allegro.pl96947261oferta.icu
 allegro.pl99826341.click
 allegro.pl9992347oferta.icu
 allegro.plad2gsgaas17xk.icu
@@ -270695,7 +270694,6 @@ allegrolokalnie.pl-oferta34819.cfd
 allegrolokalnie.pl-oferta34839269.sbs
 allegrolokalnie.pl-oferta3506798.click
 allegrolokalnie.pl-oferta3527909.icu
-allegrolokalnie.pl-oferta3538570.icu
 allegrolokalnie.pl-oferta356437.pl
 allegrolokalnie.pl-oferta3572612835-rtx-4070-super-pny-12-gb.sbs
 allegrolokalnie.pl-oferta3582556.space
@@ -272581,7 +272579,6 @@ allegrolokalnie.pl9591852123oferta.icu
 allegrolokalnie.pl9591852123oferta.sbs
 allegrolokalnie.pl96346887.cfd
 allegrolokalnie.pl96347993.cfd
-allegrolokalnie.pl96947261oferta.icu
 allegrolokalnie.pl98362635.cyou
 allegrolokalnie.pl99119.cfd
 allegrolokalnie.pl99183.cfd
@@ -284973,6 +284970,7 @@ amazon.co.uk.uaxr.xyz
 amazon.co.uk.xkjw.ru
 amazon.co.uk.xwz1.ru
 amazon.co.uoov1.cn
+amazon.co.za
 amazon.co.ztfjm.com
 amazon.codecipher.dev
 amazon.cojp.club
@@ -286820,6 +286818,7 @@ amberproperty.com.au
 amberr.pt
 amberridgeflow.xyz
 amberroseline1.wixsite.com
+amberroute.my
 ambers.dedspac.ru
 ambers.matsuro.ru
 amberschool.com
@@ -421321,6 +421320,7 @@ balikmalzemecisi.com
 balikmalzemem.com
 balikrumah.com
 balilogin.net
+balilye.pro
 balimaskim.com
 balimeilitravel.com
 balimengaji.com
@@ -441833,6 +441833,7 @@ beach-bandits.com
 beach-caroline9.uni.cc
 beach-palace-cw.com
 beach-party3.nuv2moren.in.net
+beach-resort4.ra3xelin.in.net
 beach-resort4.rav8doxel.in.net
 beach.matsuro.ru
 beachbabes.info
@@ -477343,6 +477344,7 @@ birketstore.com
 birkie.matsuro.ru
 birkikenpara.info
 birkinbag.net
+birkinhotel-expcon.com
 birkinshaws.ca
 birkinteenpt.com
 birkishoes.fr
@@ -485847,6 +485849,7 @@ black-limit-b39f.ourtimee-datings.workers.dev
 black-loans7.shop
 black-magic.jp
 black-marker3.syl5peran.in.net
+black-marker3.sylom7er.in.net
 black-market-guns.com
 black-meadow-032bbc60f.1.azurestaticapps.net
 black-night-981b.hnaisilamahtm4059.workers.dev
@@ -499998,6 +500001,3 @@ bochinasp.b-cdn.net
 bochinazoo.b-cdn.net
 bochonoksmedom.com
 bocianferenc.com
-bociankris.mazowsze.pl
-bocieallin.rest
-bocigavenettox.app
