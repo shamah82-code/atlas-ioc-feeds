@@ -188,6 +188,41 @@ SOURCES = [
     ("Microsoft Azure",    src_microsoft_azure),
 ]
 
+# When two sources claim the EXACT same (start_ip, end_ip) range, the org with
+# the lowest priority number wins. Rationale: cloud providers OWN their IP
+# blocks; some PaaS vendors publish the same blocks under their own name
+# because they're hosted on the parent's infrastructure. The user wants to see
+# the parent (e.g. "Microsoft Azure") not the child (e.g. "GitHub") because
+# (a) it matches what they'd find via WHOIS, and (b) it makes false positives
+# easier to recognize ("Outlook contacted Microsoft Azure" reads correctly;
+# "Outlook contacted GitHub" looks alarming for the wrong reason).
+#
+# Lower number = wins. Unlisted orgs default to DEFAULT_PRIORITY.
+ORG_PRIORITY = {
+    "Microsoft Azure":  1,   # parent of GitHub-on-Azure ranges
+    "Amazon AWS":       2,   # parent of any *-on-AWS publishers
+    "Google Cloud":     3,   # parent of any *-on-GCP publishers
+    "Cloudflare":       4,   # owns its own edge IPs
+    "Oracle Cloud":     5,
+    "Fastly":           6,   # CDN — owns its own edge IPs
+    "DigitalOcean":     7,
+    "Linode":           8,
+    "Google":           9,   # general Google services edge (see goog.json)
+    "GitHub":          10,   # often delegated from Microsoft Azure
+}
+DEFAULT_PRIORITY = 99
+
+
+def dedupe_by_priority(rows: List[Tuple[int, int, str]]) -> List[Tuple[int, int, str]]:
+    """Collapse exact (start, end) duplicates by ORG_PRIORITY (lowest wins)."""
+    best: dict = {}  # (start, end) -> (priority, org)
+    for start, end, org in rows:
+        prio = ORG_PRIORITY.get(org, DEFAULT_PRIORITY)
+        key = (start, end)
+        if key not in best or prio < best[key][0]:
+            best[key] = (prio, org)
+    return [(start, end, org) for (start, end), (_, org) in best.items()]
+
 
 def main() -> int:
     all_rows: List[Tuple[int, int, str]] = []
@@ -202,9 +237,13 @@ def main() -> int:
             failures += 1
             log.warning(f"  FAIL {name:20} {type(e).__name__}: {e}")
 
-    # Sort by start_ip so the SQLite index is already in physical order on insert.
-    # Also de-duplicates exact (start, end, org) triples.
-    unique = sorted(set(all_rows), key=lambda r: (r[0], r[1]))
+    # Step 1: collapse exact (start, end) overlaps using ORG_PRIORITY
+    deduped = dedupe_by_priority(all_rows)
+    collapsed = len(all_rows) - len(deduped)
+    log.info(f"Collapsed {collapsed:,} duplicate ranges via ORG_PRIORITY")
+
+    # Step 2: sort by (start, end) so the SQLite index is in physical insert order
+    unique = sorted(deduped, key=lambda r: (r[0], r[1]))
 
     with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
