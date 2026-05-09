@@ -1,0 +1,60 @@
+name: Aggregate IP Owners
+
+# Atlas Shield v2.12 — daily aggregation of public CIDR ranges from major
+# cloud and hosting providers (AWS, Google, Cloudflare, Microsoft Azure, etc.).
+# Output: ip-owners.csv at repo root, consumed by the Atlas Shield app's
+# syncIPOwners() function on the existing 12h IOC sync timer.
+#
+# Sister workflow to aggregate.yml — that one builds threat IOC feeds (bad IPs,
+# domains, hashes); this one builds enrichment data (who owns each IP).
+
+on:
+  schedule:
+    # 05:17 UTC — runs ~75 min after aggregate.yml (04:00) so the two pushes
+    # don't race on the same `main` branch. Off-:00 to dodge cron-storm.
+    - cron: '17 5 * * *'
+  workflow_dispatch: {}  # Manual trigger from GitHub Actions UI.
+
+permissions:
+  contents: write  # needed to commit the regenerated CSV
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run IP-owner aggregator
+        run: python aggregate_ip_owners.py
+
+      - name: Show results
+        run: |
+          echo "=== ip-owners.csv ==="
+          ROWS=$(($(wc -l < ip-owners.csv) - 1))
+          echo "Total ranges: $ROWS"
+          echo ""
+          echo "First 5 rows:"
+          head -6 ip-owners.csv
+          echo ""
+          echo "Org distribution:"
+          tail -n +2 ip-owners.csv | awk -F, '{print $3}' | sort | uniq -c | sort -rn
+
+      - name: Commit and push
+        run: |
+          git config user.name "Atlas IOC Bot"
+          git config user.email "atlas-ioc-bot@users.noreply.github.com"
+          git add ip-owners.csv
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            ROWS=$(($(wc -l < ip-owners.csv) - 1))
+            git commit -m "Daily IP-owner refresh — ${ROWS} ranges — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          fi
