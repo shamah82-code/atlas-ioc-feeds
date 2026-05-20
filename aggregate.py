@@ -14,6 +14,7 @@ import sys
 import csv
 import time
 import hashlib
+import ipaddress
 import logging
 import io
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -54,6 +55,23 @@ SAFE_DOMAINS = {
     'akamai.net', 'akamaiedge.net',
     'play.google.com', 'dl.google.com',
 }
+
+# Atlas Shield's own update infrastructure (the app polls shamah82-code.github.io
+# for these aggregated feeds). Upstream feeds occasionally list GitHub Pages CDN
+# as malicious — without this scrub the app self-detects its update endpoint
+# (185.199.108.153) as spyware on every poll.
+ATLAS_UPDATE_CIDRS = [
+    ipaddress.ip_network('185.199.108.0/22'),  # GitHub Pages / Fastly
+    ipaddress.ip_network('140.82.112.0/20'),   # GitHub API (api.github.com)
+    ipaddress.ip_network('192.30.252.0/22'),   # Legacy GitHub
+]
+
+def in_atlas_update_cidr(ip):
+    try:
+        addr = ipaddress.IPv4Address(ip)
+    except ValueError:
+        return False
+    return any(addr in net for net in ATLAS_UPDATE_CIDRS)
 
 # ─── FEED DEFINITIONS ────────────────────────────────────────────────────────
 # Format: (url, type, parser)
@@ -420,6 +438,13 @@ def main():
                 stats['failed'] += 1
 
     # ─── WRITE OUTPUT ─────────────────────────────────────────────────────────
+    # Drop GitHub-owned CIDRs so Atlas Shield doesn't self-flag its own feed pulls.
+    before_scrub = len(all_ips)
+    all_ips = {ip for ip in all_ips if not in_atlas_update_cidr(ip)}
+    scrubbed = before_scrub - len(all_ips)
+    if scrubbed:
+        log.info(f'Scrubbed {scrubbed} Atlas-infra IPs from ips.txt')
+
     sorted_ips = sorted(all_ips)
     sorted_domains = sorted(all_domains)
     sorted_hashes = sorted(all_hashes)
