@@ -1,6 +1,40 @@
 # Atlas Shield IOC — Malicious Domains (part 3/6)
-# Generated: 2026-05-20 03:58 UTC
-# Total in this file: 500000 (of 2854591 total)
+# Generated: 2026-05-20 07:42 UTC
+# Total in this file: 500000 (of 2854715 total)
+f4db1ac6b93cfe9d.com
+f4db1ac6b93cfe9d.xyz
+f4de5cce2cf21569.com
+f4df0ce062fe076c.com
+f4dfc3a6ab223a609ab2682120fd9f431b51dcff8df1312719112d196d.pages.dev
+f4dnpq.duckdns.org
+f4dub9is1r.icu
+f4e10552d11032.beer
+f4e2a302f1016.beer
+f4e3b0789cee.xyz
+f4e46-tiaaa-aaaad-qg3ja-cai.icp0.io
+f4e4e3366a6d998f.com
+f4e54914a30ec631.com
+f4e5b6648a43e12c.com
+f4e61c3f210292.beer
+f4e687b2a1014.beer
+f4e7cb51d0b02c5e4f439cbb83f8aa5d-dot-solidstar-improts.uk.r.appspot.com
+f4e8e24df0351125.com
+f4e8j36h8572a.com
+f4e95c2a.fun
+f4e95c2a.online
+f4e95c2a.shop
+f4e95c2a.site
+f4e95c2a.space
+f4e95c2a.store
+f4e9cd733cfe.com
+f4e9e04e40fe08a0.com
+f4ea192242764c9d.com
+f4eb8a24.sibforms.com
+f4ef1269cbbd34b3.com
+f4eggrgtet4r5rhyjuk8765rewf4g5hgrfrg45hgrfe4567trfg5.azurewebsites.net
+f4f.online
+f4f0d2d6c7.com
+f4f0e4093e.com
 f4f0f3d579cae238.com
 f4f30943410251.beer
 f4f4ffddf2.shop
@@ -12505,6 +12539,7 @@ fanculbs.xyz
 fancurier.click
 fancurier.lat
 fancy-axolotl-fad560.netlify.app
+fancy-bet365.com.cn
 fancy-bonbon-b3aa03.netlify.app
 fancy-cherry-de6f.8n2jthl6.workers.dev
 fancy-cobbler-598702.netlify.app
@@ -26115,6 +26150,7 @@ federatedgrowthnetwork.garden
 federatedmeadowcluster.garden
 federatedmeadowsystem.garden
 federatedplantcluster.garden
+federatedplantmesh.garden
 federatedplantplatform.garden
 federatedsample.com
 federatedstoragelab.courses
@@ -40927,6 +40963,7 @@ finance98-non82.pro
 finance98-quibusdam44.pro
 finance98-repellat66.pro
 finance99-aliquid66.pro
+finance99-aut14.pro
 finance99-consequatur47.pro
 finance99-deserunt38.pro
 finance99-iusto98.pro
@@ -44286,6 +44323,7 @@ finger-off.info
 finger.cldvrfd.click
 finger.linked-on.com
 finger.linked-people.com
+finger.linkedby.org
 finger.linkedwith.org
 finger.teamss.net
 fingerance.com
@@ -63676,6 +63714,7 @@ focusgame.top
 focusgammalogic.digital
 focusgammasynergy.click
 focusgarden-pl.club
+focusgarden-pl.shop
 focusgarden.top
 focusgardenpl.club
 focusgazette.com
@@ -77168,6 +77207,7 @@ franco.con-ip.com
 franco.ddns.net
 francoamerican.info
 francobelgeservice.fr
+francobrickmasonry.com
 francocarrozzino.eu
 francocazzaniga.com
 francocitesports.ca
@@ -83206,6 +83246,7 @@ fridayfitter.com
 fridayfood.net
 fridayguess.net
 fridaylegend.top
+fridaylocalmanager.duckdns.org
 fridaylower.net
 fridaymeet.com
 fridaymovo.com
@@ -85020,6 +85061,7 @@ frosty-nexus.com
 frosty-nobel-ca7f68.netlify.app
 frosty-northcutt.192-3-199-131.plesk.page
 frosty-panini-4e70c7.netlify.app
+frosty-pinnacle.com
 frosty-poincare-c300c4.netlify.app
 frosty-ramanujan-09342d.netlify.app
 frosty-ride-69e826.netlify.app
@@ -93840,6 +93882,7 @@ fun-api-app-wallet-connectv2.com
 fun-app.live
 fun-app.stream
 fun-bet-casino.fr
+fun-bet365.com.cn
 fun-betcasino.fr
 fun-cashback.info
 fun-cashback.live
@@ -152643,6 +152686,7 @@ globalwatchdailypulse.pro
 globalwatchnewsalert.pro
 globalwaves.hair
 globalwealtggpay.live
+globalwealth2026.duckdns.org
 globalwealthasset.ltd
 globalwealthcapita.com
 globalwealthgrowthinvestment.com.growthguardinvestment.com
@@ -160954,6 +160998,7 @@ golden-era777.com
 golden-fleece.gr
 golden-flicker.com
 golden-foothills.com
+golden-fortress.com
 golden-gate-ventures.com
 golden-glint.com
 golden-goblin.com
@@ -184999,6 +185044,7 @@ growingunderground.com
 growingupgerten.com
 growingupinpublic.org
 growingyoursuccess.top
+growinluminora.digital
 growinmeadowland.com
 growinmeadowvale.com
 growinmoorland.digital
@@ -198304,7 +198350,6 @@ guildguard-access.com
 guildguard.io
 guildguard.pro
 guildguard.xyz
-guildguard3.xyz
 guildguard888.pro
 guildguardbot.app
 guildguardbot.cc
@@ -231191,6 +231236,7 @@ heachofe.biz.id
 heaciochou.ai.in
 heacrovu.co.za
 heacters.com
+head-bet365.com.cn
 head-chefs.com
 head-dumans.tech
 head-eg.com
@@ -282655,6 +282701,7 @@ hotshop.cc
 hotshopping-ro.com
 hotshoptoday.com
 hotshortlet.com
+hotshot-barn.com
 hotshot.quest
 hotshot.support
 hotshotdispatch.com
@@ -338265,6 +338312,7 @@ industelecomtowergroup.com
 industex.ru
 industex.store
 industilin.xyz
+industower.org
 industrali.xyz
 industreeengineering.com
 industriadosom.com.br
@@ -367873,6 +367921,7 @@ irrigatenotwithstandingcommit.com
 irrigateoak.top
 irrigaterusty.top
 irrigatestack.digital
+irrigation-control-framework.garden
 irrigation-control-network.garden
 irrigation-management-core.garden
 irrigation-management-system.garden
@@ -379173,7 +379222,6 @@ itpuk-mms.itpro.co.uk
 itpvcgmx.wiki
 itpx.com.mx
 itpz23n.duckdns.org
-itq.cuteclub.org
 itq.world
 itqan-egy.com
 itqan-ip.com
@@ -389255,6 +389303,7 @@ j61w.vip
 j62.xyz
 j625y12m20d.top
 j62c.vip
+j62e.vip
 j62pu235zg.bond
 j62rc425xx.pics
 j62wwivnsntjporvag3u3xc3rfrqio25a7lhxamgfnjd7kdnhpnu7eqd.onion
@@ -401596,6 +401645,7 @@ jfmn.cannca.shop
 jfmqroups.com
 jfmv-cv.com
 jfmveiksd.pro
+jfmz4630.badabingsopranoslounge.digital
 jfn.pages.dev
 jfn.sun-hill.ru
 jfn3sk2sc.com
@@ -405199,6 +405249,7 @@ jiriviratarexenohari.com
 jiriwia8.ru
 jiriyicuaventures.digital
 jirkinetcoreio.digital
+jirkk-plnd.rest
 jirmaa.com
 jirnqe3263.top
 jiro.click
@@ -433787,6 +433838,7 @@ kakao-mail.co.kr
 kakao-mail.com
 kakao-mail.kr
 kakao-talk.com.co
+kakao.casino
 kakao.com-info.server-on.net
 kakao0047.xyz
 kakaoaccouts.store
@@ -450280,6 +450332,7 @@ kenedy-analysis.com
 kenedy-enhance.com
 kenedy-ranks.com
 kenedyranks.com
+keneedy.lol
 keneeland.com
 kenejoquumresources.click
 kenekem.net
@@ -499948,56 +500001,3 @@ labhost.xyz
 labhrasentertainment.com
 labia-lash.click
 labia.dedspac.ru
-labial-equilibrio.site
-labialimail.ru
-labialworks.digital
-labiasoppe.com
-labibnotes.com
-labibocraf.today
-labibsyagakport.com
-labicer.com
-labicicletacreativa.com
-labidia.com
-labidurastack.digital
-labildisap.world
-labimy.ink
-labinicigh.xyz
-labiogression.pro
-labiomax.pro
-labiosangu.pro
-labiovfmk.com
-labirintosecreto.site
-labiseauxchiens.com
-labissi.shop
-labiubiudy.shop
-labivufonmanagementco.click
-labixiaoxin.e2.luyouxia.net
-labjin.com
-labjuvexio.com
-labk.ru
-labkhandco.com
-labkipmjambi.com
-labkis.is-best.net
-labkitsforstudents.com
-labklyntor.com
-labklytor.com
-labkom.perguruanserasan.ac.id
-labkryntix.com
-labl.online
-labldie.top
-lablentrix.com
-lableupgrade.com
-lablevelad.info
-lablevelhq.info
-lablifhq.info
-labliftad.info
-labling-fab.de
-labling.sumselprov.go.id
-lablinkad.info
-labljas.org
-lablocks.site
-labluxejewelz.com
-labmedegypt.com
-labmediasolutions.trk2afse.com
-labmen-fgi.club
-labmicroanalisis.com

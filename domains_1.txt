@@ -1,6 +1,6 @@
 # Atlas Shield IOC — Malicious Domains (part 1/6)
-# Generated: 2026-05-20 03:58 UTC
-# Total in this file: 500000 (of 2854591 total)
+# Generated: 2026-05-20 07:42 UTC
+# Total in this file: 500000 (of 2854715 total)
 0--9-9-8---7-77-7-7-6--65-5--4-3-3-3-2-1.com
 0--loook.net
 0-0-0-0-0-0-0-0-0-0-0-0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-0.info
@@ -18703,6 +18703,7 @@
 0zelsxbeflrsatlar.site
 0zf5z.ic0n1cbrook.ru
 0zfm6.csb.app
+0zfu07h8.audioattenuatorschematic.digital
 0zfu9vod.duckdns.org
 0zg4-lpsv0d-jrw5.anjaan.com.np
 0zgmkn2r.duckdns.org
@@ -54902,6 +54903,7 @@
 21618.cc
 2161a5a416.com
 2162020.xyz
+216215wss.ink
 2162e66b18eb.ngrok.io
 2162e84175df27ad3e4f64063eb6aaf0.info
 216310828.corolain.ru
@@ -118847,6 +118849,7 @@
 5r4f1ru.gdkc9q.cn
 5r5c6r5q1x7.shop
 5r5ew.mom
+5r65215r12.ink
 5r65t767t67t76.email-temp.com
 5r6cj-2aaaa-aaaah-qpx3q-cai.icp0.io
 5r7fd.top
@@ -123880,6 +123883,7 @@
 648883agl1.shop
 64889.xyz
 648895848561303.ml
+648899.cc
 6488b716a10271.beer
 64894df290bf8e5b94330578--willowy-griffin-77b516.netlify.app
 64895292.xyz
@@ -203328,6 +203332,7 @@ ablcudsrwruqncpt-dot-millinium.ey.r.appspot.com
 abldbynv2.duckdns.org
 able-7e2.pages.dev
 able-alert-poppy.glitch.me
+able-bet365.com.cn
 able-bodied-takeoff.000webhostapp.com
 able-fork-macaroon.glitch.me
 able-giants.surge.sh
@@ -238449,7 +238454,6 @@ aerodrom.fr
 aerodrome-allocations.xyz
 aerodrome-check.xyz
 aerodrome-claim.com
-aerodrome-distribution.com
 aerodrome-distributions.com
 aerodrome-eligibility.xyz
 aerodrome-finac.xyz
@@ -271924,7 +271928,6 @@ alebilet.oferta-18829.icu
 alebilet.oferta-1982.top
 alebilet.oferta-21938-pl.click
 alebilet.oferta-22324813.click
-alebilet.oferta-22762654.cfd
 alebilet.oferta-23282.sbs
 alebilet.oferta-2342553.icu
 alebilet.oferta-24785-pl.click
@@ -271972,7 +271975,6 @@ alebilet.oferta-516788312pl.sbs
 alebilet.oferta-517126.click
 alebilet.oferta-5172-pl.click
 alebilet.oferta-51768512.click
-alebilet.oferta-53059512-251-ww21.cyou
 alebilet.oferta-53234-pl.click
 alebilet.oferta-53366115-pl.sbs
 alebilet.oferta-5336615-pl.icu
@@ -272871,7 +272873,6 @@ alebilet.pl-oferta-kategorie-polecane292399.sbs
 alebilet.pl-oferta-kategorie-polecane293324285.sbs
 alebilet.pl-oferta-kategorie-polecane2944040.sbs
 alebilet.pl-oferta-kategorie-polecane39932003.icu
-alebilet.pl-oferta-kategorie-polecane39932230008.cfd
 alebilet.pl-oferta-proponowana-dla-ciebie-234216.icu
 alebilet.pl-oferta.com.pl
 alebilet.pl-oferta0038114.sbs
@@ -273083,7 +273084,6 @@ alebilet.pl-oferta41142113151202981.sbs
 alebilet.pl-oferta4114211315122981.sbs
 alebilet.pl-oferta41241.sbs
 alebilet.pl-oferta4142113151202981.sbs
-alebilet.pl-oferta4143026.icu
 alebilet.pl-oferta4146161729.sbs
 alebilet.pl-oferta419519.icu
 alebilet.pl-oferta4262-apple-watch-ultra-3.sbs
@@ -282735,7 +282735,6 @@ allegro.oferta-18829.icu
 allegro.oferta-1982.top
 allegro.oferta-21938-pl.click
 allegro.oferta-22324813.click
-allegro.oferta-22762654.cfd
 allegro.oferta-23282.sbs
 allegro.oferta-2342553.icu
 allegro.oferta-24785-pl.click
@@ -282784,7 +282783,6 @@ allegro.oferta-516788312pl.sbs
 allegro.oferta-517126.click
 allegro.oferta-5172-pl.click
 allegro.oferta-51768512.click
-allegro.oferta-53059512-251-ww21.cyou
 allegro.oferta-53234-pl.click
 allegro.oferta-53366115-pl.sbs
 allegro.oferta-5336615-pl.icu
@@ -284170,7 +284168,6 @@ allegro.pl-oferta-kategorie-polecane292399.sbs
 allegro.pl-oferta-kategorie-polecane293324285.sbs
 allegro.pl-oferta-kategorie-polecane2944040.sbs
 allegro.pl-oferta-kategorie-polecane39932003.icu
-allegro.pl-oferta-kategorie-polecane39932230008.cfd
 allegro.pl-oferta-proponowana-dla-ciebie-234216.icu
 allegro.pl-oferta.com.pl
 allegro.pl-oferta.ml
@@ -284391,7 +284388,6 @@ allegro.pl-oferta41142113151202981.sbs
 allegro.pl-oferta4114211315122981.sbs
 allegro.pl-oferta41241.sbs
 allegro.pl-oferta4142113151202981.sbs
-allegro.pl-oferta4143026.icu
 allegro.pl-oferta4146161729.sbs
 allegro.pl-oferta41924.cfd
 allegro.pl-oferta419519.icu
@@ -288473,6 +288469,7 @@ allegrolokalnie.ido789665.top
 allegrolokalnie.ido984231.top
 allegrolokalnie.ido984554.top
 allegrolokalnie.ido984555.top
+allegrolokalnie.ido985542.top
 allegrolokalnie.ido986652.top
 allegrolokalnie.ij0943ji9rjom32.shop
 allegrolokalnie.ij3diulcueisnfii.xyz
@@ -288743,7 +288740,6 @@ allegrolokalnie.oferta-194892-dla-ciebie-proponowana.sbs
 allegrolokalnie.oferta-1982.top
 allegrolokalnie.oferta-21938-pl.click
 allegrolokalnie.oferta-22324813.click
-allegrolokalnie.oferta-22762654.cfd
 allegrolokalnie.oferta-23282.sbs
 allegrolokalnie.oferta-233345221-kategoria-dla-ciebie.sbs
 allegrolokalnie.oferta-2342553.icu
@@ -288823,7 +288819,6 @@ allegrolokalnie.oferta-516788312pl.sbs
 allegrolokalnie.oferta-517126.click
 allegrolokalnie.oferta-5172-pl.click
 allegrolokalnie.oferta-51768512.click
-allegrolokalnie.oferta-53059512-251-ww21.cyou
 allegrolokalnie.oferta-53234-pl.click
 allegrolokalnie.oferta-53366115-pl.sbs
 allegrolokalnie.oferta-5336615-pl.icu
@@ -289020,6 +289015,7 @@ allegrolokalnie.oferta2936495.online
 allegrolokalnie.oferta29442659.shop
 allegrolokalnie.oferta294723.sbs
 allegrolokalnie.oferta294724480.shop
+allegrolokalnie.oferta294852694.click
 allegrolokalnie.oferta295619.click
 allegrolokalnie.oferta30582594.shop
 allegrolokalnie.oferta3059264949.shop
@@ -291878,7 +291874,6 @@ allegrolokalnie.pl-oferta-kategorie-polecane29099.sbs
 allegrolokalnie.pl-oferta-kategorie-polecane292399.sbs
 allegrolokalnie.pl-oferta-kategorie-polecane293324285.sbs
 allegrolokalnie.pl-oferta-kategorie-polecane2944040.sbs
-allegrolokalnie.pl-oferta-kategorie-polecane39932230008.cfd
 allegrolokalnie.pl-oferta-piecolejowy-2364.sbs
 allegrolokalnie.pl-oferta-proponowana-dla-ciebie-234216.icu
 allegrolokalnie.pl-oferta.biz
@@ -292167,7 +292162,6 @@ allegrolokalnie.pl-oferta41142113151202981.sbs
 allegrolokalnie.pl-oferta4114211315122981.sbs
 allegrolokalnie.pl-oferta41241.sbs
 allegrolokalnie.pl-oferta4142113151202981.sbs
-allegrolokalnie.pl-oferta4143026.icu
 allegrolokalnie.pl-oferta4146161729.sbs
 allegrolokalnie.pl-oferta4153711.click
 allegrolokalnie.pl-oferta4192026.cfd
@@ -315918,6 +315912,7 @@ amsel.reportot.click
 amsel.vadilops.ru
 amsel.virosat.ru
 amselweg.net
+amseno.shop
 amsercuremenow.myftp.org
 amserva.com
 amservice.shop
@@ -345049,6 +345044,7 @@ apex-analytica.com
 apex-analytics247.digital
 apex-aoke-live.com
 apex-baidu-live.com
+apex-bet365.com
 apex-bitlux.com
 apex-capital-60.com
 apex-capitalai.com
@@ -407929,6 +407925,7 @@ atualizacaobradesco.digital
 atualizacaobrdesco.com
 atualizacaocadastral.cloudaccess.host
 atualizacaocadastral.digital
+atualizacaocadastralbia.com
 atualizacaocadastroitau.ml
 atualizacaocadastros.com
 atualizacaocard.000webhostapp.com
@@ -435152,6 +435149,7 @@ azure-services.de
 azure-sharp.1zoravel.in.net
 azure-silver-wirtgen.com
 azure-simple-sweatpants.glitch.me
+azure-spire.com
 azure-spot-495571.framer.app
 azure-sso-eng-ca-netcoins-com-cdn.webflow.io
 azure-superb-snowdrop.glitch.me
@@ -435339,6 +435337,7 @@ azuriteitconsulting.com
 azuritemole.today
 azuritevole.pro
 azurithaqven.com
+azuriu.com
 azurlogistics.net
 azurnotify.click
 azuro.online
@@ -438554,6 +438553,7 @@ b27g.top
 b27gm3m1pq.top
 b27i.top
 b27ipga8.duckdns.org
+b27m.top
 b27y.top
 b2810220c11031.beer
 b281eda619d5bce59d19.xyz
@@ -456285,6 +456285,7 @@ bakin-mutlu-gunlerimize.com
 bakinbruise.top
 baking-austria-at.com
 baking-intesa.com
+baking-stone-thermal-mass.garden
 baking-tales.com
 baking.virosat.ru
 bakingatelier.store
@@ -464609,6 +464610,7 @@ barranquillafashionweek.org
 barraoutfa.homes
 barrarieam.shop
 barrarioservicos.com.br
+barrarodante.com
 barras.dedspac.ru
 barras.matsuro.ru
 barrasdearmario.com
@@ -466147,6 +466149,7 @@ basiakurier.top
 basiatv.com
 basic-attention-token-rewards.network
 basic-bank.com
+basic-bet365.com.cn
 basic-brand-209311.framer.app
 basic-bundle-dark-block-b923.eleanorhill1971.workers.dev
 basic-bundle-dawn-snow-139f.vannary03.workers.dev
@@ -485143,6 +485146,7 @@ belarionix.sbs
 belariontix.com
 belarivonqua.com
 belarminoleiloes20-wixsite-com.filesusr.com
+belaroa.shop
 belarusbusiness-404.pages.net.br
 belarusianbonus.eu
 belaruskabel.ru
@@ -491767,6 +491771,7 @@ bestcc.ru
 bestccc.com
 bestccdumpss.shop
 bestccleanfessorinhousesg.com
+bestcd.shop
 bestcdn.network
 bestcdnforfree.site
 bestcebuhouses.com
@@ -499996,8 +500001,3 @@ bgsbctp.com
 bgschooluniform.com
 bgscrfrsnline.cfd
 bgscrfsadacarfsa.cfd
-bgscrfsaonl.cfd
-bgsdhatt.weebly.com
-bgsdw.com
-bgsec.org
-bgseq.com
