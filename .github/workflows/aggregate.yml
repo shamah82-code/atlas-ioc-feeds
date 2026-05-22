@@ -23,6 +23,9 @@ jobs:
       - name: Run aggregator
         run: python aggregate.py
 
+      - name: Generate manifest
+        run: python gen_manifest.py
+
       - name: Show results
         run: |
           echo "=== IP count ==="
@@ -41,7 +44,7 @@ jobs:
         run: |
           git config user.name "Atlas IOC Bot"
           git config user.email "atlas-ioc-bot@users.noreply.github.com"
-          git add ips.txt domains_*.txt hashes.txt
+          git add ips.txt domains_*.txt hashes.txt manifest.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
