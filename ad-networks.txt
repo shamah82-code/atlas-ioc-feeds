@@ -1,0 +1,37 @@
+# Atlas Shield — ad-network blocklist (for the "Block Ads" feature)
+# Each entry is WILDCARD-matched: it blocks the domain + ALL its subdomains.
+# Fetched directly by the app (AdNetworkBlocklist.js) — no workflow, no aggregation.
+# To add a network later: append its root domain on its own line, commit. Live ~5 min.
+
+# --- Pure ad networks (whole domain safe to block) ---
+vungle.com
+vungle.io
+liftoff.io
+applovin.com
+applvn.com
+adcolony.com
+mintegral.net
+mtgglobals.com
+rayjump.com
+pangle.io
+pangleglobal.com
+chartboost.com
+inmobi.com
+inmobicdn.net
+tapjoy.com
+fyber.com
+ironsrc.com
+supersonicads.com
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+moatads.com
+adsafeprotected.com
+
+# --- Attribution SDKs ---
+adjust.com
+appsflyer.com
+
+# --- Unity Ads — narrow anchors ONLY (never bare unity3d.com, it runs game services) ---
+unityads.unity3d.com
+iads.unity3d.com
