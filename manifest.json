@@ -2,36 +2,36 @@
   "files": {
     "domains_1.txt": {
       "rows": 500000,
-      "sha256": "e13fa9ff49124aef78ef640fac13d324d32066bab2ffad46f7ca218c74352d58"
+      "sha256": "abd412a42ae17b15ab56e3ec013b7d138959f938e1879fe9243975c466c129e8"
     },
     "domains_2.txt": {
       "rows": 500000,
-      "sha256": "7f967bd9db2ab2cfe451ecc2fd73c4b648ca90a9028b3817e625a7529df8961b"
+      "sha256": "97808d70707f894dc1742e57084dd8598129a1cc502b1d6255c9d65a08a68f55"
     },
     "domains_3.txt": {
       "rows": 500000,
-      "sha256": "eea8e110d5d5bc5b9cff0927305b9eb6bdc168dd282b8945924bbcfb6e68939d"
+      "sha256": "ee8fb9bd2e77b98abf935fc7491d247173194ca90a83d2a9fbe501b79579e669"
     },
     "domains_4.txt": {
       "rows": 500000,
-      "sha256": "bcd18e16a4e7fc019c1f4da4ceee4e623748eb775823731a81e4716ca22d92bf"
+      "sha256": "dc8a549c758c2f17c0a004ccfa5be61c6e4fef72f4aec7f4a12bd757f256a6e9"
     },
     "domains_5.txt": {
       "rows": 500000,
-      "sha256": "908c4094d8bc79cd8d48e39a12906ca62e06ab27c130f5a1d0d1ff6c41cda1c7"
+      "sha256": "913ba09e43a9e687f90677b0e4ff8eea983897289f20bbd3b851835036cd8b42"
     },
     "domains_6.txt": {
-      "rows": 427958,
-      "sha256": "36678a94abe325678b945cf48d3f3f9866bd5639b89dae9bac216552f09e54b9"
+      "rows": 179147,
+      "sha256": "14fb484574f5aa890b116a72dacaf23d7ede15765621861fd5bf454d4cfdcbaa"
     },
     "hashes.txt": {
-      "rows": 909,
-      "sha256": "9b6d90a1c52230ea95980000ab17bfb338f0e1d9bc5283466dd21852ce0ae419"
+      "rows": 646,
+      "sha256": "801977f9e6aa2faddb9cbdd652b3e7b39f240175ae78db42c77b53829ffb05cd"
     },
     "ips.txt": {
-      "rows": 183608,
-      "sha256": "82bfce7da21cbf8d5fe09c99ac1a806eb750dafacb9e6a4d46621a651ade7b4c"
+      "rows": 187340,
+      "sha256": "6a882d6eeb937d06f874cc7c0b9f11b1e7b0b4aade92780dedd8fbaabc218dd0"
     }
   },
-  "generated_at": "2026-06-02T08:27:44Z"
+  "generated_at": "2026-06-03T08:54:09Z"
 }
