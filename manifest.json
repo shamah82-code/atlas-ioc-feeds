@@ -2,40 +2,40 @@
   "files": {
     "domains_1.txt": {
       "rows": 500000,
-      "sha256": "ed465b0ad9770dfc7fd9f00e2357cc4873a6a00b9bd3b4b1cc4ea1d154e44db7"
+      "sha256": "7132a83f9d9b7a1a4d7193b5b2af0e2a61cff95e03b2cf54c6e2777ab66c7886"
     },
     "domains_2.txt": {
       "rows": 500000,
-      "sha256": "f40be4f0fcac9d54a8c2453afe9b2da61d4db601fe242c81308d003bee950fd0"
+      "sha256": "bc595189cbbd724fccfa91c23091049fe22e7237aa74f0c99999fad3cc90fad0"
     },
     "domains_3.txt": {
       "rows": 500000,
-      "sha256": "1a16fd488f123950d5f299c9ea5e3eccf527a9767396d14d3c55b91bbcccd58c"
+      "sha256": "d0475b9b4631d54279f5ce5e5e4d4edd72f2e1ae70771fb03bfd360cbcb56820"
     },
     "domains_4.txt": {
       "rows": 500000,
-      "sha256": "d5a35a440ef26675fe3e776d4f594cf2b4afd5d1e979779165421b3f69d3fb71"
+      "sha256": "e7ee3f08b751330d6286590b1cf10334c3c09a5aec667ba077ce9ff69fdbdccb"
     },
     "domains_5.txt": {
       "rows": 500000,
-      "sha256": "8352c94fa1367483f09699fcbde47065a69b2e816128c1a43908e461269e1c92"
+      "sha256": "fe32ce9a0cb64034bbbe0038f37e8681761259f059d620c7bd1d2b79df0a3a04"
     },
     "domains_6.txt": {
-      "rows": 206122,
-      "sha256": "22d8300194bb9d54d9b8dc1f058a84f03f72fb3cc6a7306d19d04b3766d016b3"
+      "rows": 279794,
+      "sha256": "0d743dd2134b35efdba08851e3349ca77f0cc9394adc8d3989ea5863eb081a21"
     },
     "domains_7.txt": {
       "rows": 60416,
       "sha256": "7ae472365ed15ec5d82833164834a66941081d4f2095ac04017a8015bba18e2b"
     },
     "hashes.txt": {
-      "rows": 889,
-      "sha256": "6f6d75706c502265dc627732bd8e36f30fe20f2b3e0bc397a6bdb7231650c2de"
+      "rows": 1002,
+      "sha256": "516c9ce9698eafcff49e93df7b7352594caba2bba421b329533f5af6f64c13fd"
     },
     "ips.txt": {
-      "rows": 183151,
-      "sha256": "36db5966981e8a7dbc8688ffa08152c7dca8c43f8b0106452fa3c5380416501e"
+      "rows": 188935,
+      "sha256": "412f5ddd1f07228ebd8be2267a97d68cc76bb88e0e6a4ce0c280f0cc8dd2d234"
     }
   },
-  "generated_at": "2026-06-19T09:05:07Z"
+  "generated_at": "2026-06-20T07:48:56Z"
 }
