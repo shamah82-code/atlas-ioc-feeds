@@ -35,3 +35,9 @@ appsflyer.com
 # --- Unity Ads — narrow anchors ONLY (never bare unity3d.com, it runs game services) ---
 unityads.unity3d.com
 iads.unity3d.com
+
+# --- ByteDance / Pangle ad delivery CDNs ---
+pangle-ads.com
+byteoversea.com
+pglstatp-toutiao.com
+ibyteimg.com
