@@ -2,40 +2,40 @@
   "files": {
     "domains_1.txt": {
       "rows": 500000,
-      "sha256": "b6815200743dd8b072990523f776f6b6798f5c5f460a1e0a5f9d266af2e453ff"
+      "sha256": "f90d71f35143ac9d93532056a22daf705425874322947fef3c7ce20d8972066c"
     },
     "domains_2.txt": {
       "rows": 500000,
-      "sha256": "c81e0d13270ffa2ba3717a9160012c2fdf9f5cb1a41d4f16fd023ed19cf92738"
+      "sha256": "c1747849ab07e39aa87d05f93f063478e09bf44e972012cf610b36431aeee8ca"
     },
     "domains_3.txt": {
       "rows": 500000,
-      "sha256": "d105d20b70903290d489a7859b49821e2a49fb1217dd7d71d20cafa7613d0d95"
+      "sha256": "a804b37608212697869a65a3b11eeace839910217e6f9309ae4fcbdff5759b78"
     },
     "domains_4.txt": {
       "rows": 500000,
-      "sha256": "42a0cc7aab80227e1031df190e6c6648f86bbf6d43e2d5fd8111ca83ae8133f7"
+      "sha256": "c11d236be9358ebc379faa1a48354c8234f0014582333e8212b7e806496a0d48"
     },
     "domains_5.txt": {
       "rows": 500000,
-      "sha256": "0ec8df3364de03c8e64809883c9edb2c6dc9ee9dd9b6c244cb7549cb144cde7e"
+      "sha256": "198ce89045be2e1ad1d4f8fff56754ff1ab22a1bfb462cde734cfacc79c9e0f0"
     },
     "domains_6.txt": {
       "rows": 500000,
-      "sha256": "825ce003d8fc23fc2916bc65bf12e4dcba5015ea72fd4fe554312cabd02a16cb"
+      "sha256": "8a5f447e949b01d4aec83ef6a093f08633139192442e42d10da61b09d90e3dc9"
     },
     "domains_7.txt": {
-      "rows": 399944,
-      "sha256": "00bce93d9e0087663e4a7e1322fd5beaeed8fe57009e11cb989600b8045d715c"
+      "rows": 408456,
+      "sha256": "b80070eddd50cd7e93f7d4f31d667de629d8e0f848f046d291550ccf4f6a9674"
     },
     "hashes.txt": {
-      "rows": 834,
-      "sha256": "ba22d3168458bf411f78024cc1b6d2ac29fd9a73d6b5a8d1442dd284857c6423"
+      "rows": 956,
+      "sha256": "f37aa9e4d8921deaf9b1abae9ad2bd43e8c762135df4d44c52baa175e7b3304e"
     },
     "ips.txt": {
-      "rows": 185079,
-      "sha256": "1c1f0ed47298e0517dc52875d4676fc730cd318368a0560747b9d2ca93518dba"
+      "rows": 177516,
+      "sha256": "6cb5f087be9d7ef10939e49974d065b28dc0fe99c0bf5e7b64ff0fbe9c0d4351"
     }
   },
-  "generated_at": "2026-07-20T06:43:45Z"
+  "generated_at": "2026-07-21T06:26:20Z"
 }
