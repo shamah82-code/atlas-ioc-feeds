@@ -79,8 +79,11 @@ def in_atlas_update_cidr(ip):
 # parser: 'plain-ip', 'plain-domain', 'hostfile', 'csv-ip', 'csv-domain', 'hash', 'mixed', 'pipe-ip', 'tab-ip'
 
 IP_FEEDS = [
-    # IPsum — aggregated multi-blacklist (THE big one)
-    ('https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt', 'tab-ip'),
+    # IPsum — aggregated multi-blacklist. Level 1 ("seen on >=1 blacklist") REMOVED
+    # 2026-08-15 (R1): it blankets Tor relays/exits and other benign-infra noise —
+    # 109/111 of a live device's Tor guard set was in it. L3+ (3+ independent
+    # blacklists) kept: that's the corroborated-signal tier. Do NOT re-add L1/L2
+    # without the cross-repo board discussion (atlas-whisperlink SHIELD board, R1).
     ('https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt', 'tab-ip'),
     ('https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt', 'tab-ip'),
     ('https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt', 'tab-ip'),
@@ -133,7 +136,9 @@ IP_FEEDS = [
     ('https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestips.txt', 'plain-ip'),
     ('https://www.botvrij.eu/data/blocklist/blocklist_ip.csv', 'csv-ip'),
     ('https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-IPs-ACTIVE.txt', 'plain-ip'),
-    ('https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst', 'plain-ip'),
+    # SecOps tor-exit-nodes REMOVED 2026-08-15 (R1): Tor exits attack SERVERS, not
+    # phones (no inbound path to a NAT'd device); blanket relay-blocking breaks the
+    # owner's Tor-based app. Tor awareness returns as ALERT-ONLY via R3/P4 (v2.13).
     ('https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt', 'plain-ip'),
 
     # Spamhaus
