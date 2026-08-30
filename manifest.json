@@ -2,15 +2,15 @@
   "files": {
     "domains_1.txt": {
       "rows": 500000,
-      "sha256": "a1e1d21db26e016e35701e0de6f2d5be0d0456ffaa2c323fa04c0451525075cb"
+      "sha256": "761cb47a3a77882c69240bfa7bd8dd217ad77cedeec32ee112a2ff1194815a75"
     },
     "domains_2.txt": {
       "rows": 500000,
-      "sha256": "b38f5c4a8987819596a26902e961b2d3063fd435f635e51688882c4b8d5627e4"
+      "sha256": "c9df9ebaf03ea832bfc39fd14172f310e945aeb032d5e74c9a39473da325318c"
     },
     "domains_3.txt": {
-      "rows": 467459,
-      "sha256": "fba178b64d8b948b015aca688df3496bb58e8e04517ef9450615dd62e5f2408e"
+      "rows": 468221,
+      "sha256": "24e9d09d03dc6bccd15d86a7350aff78946a15b271d460739e613f98f24f96d8"
     },
     "domains_4.txt": {
       "rows": 500000,
@@ -29,13 +29,13 @@
       "sha256": "8384fdcbed83113c238c86383a20e3c2f24ecd2b2597f56f51182844bf24f3da"
     },
     "hashes.txt": {
-      "rows": 1057,
-      "sha256": "4b989841c42e8229744bf58577857b5db22e41811bdfa00ee9f3109aa460910d"
+      "rows": 1124,
+      "sha256": "4010b3b2ce7711852ddbc52ee4621a56de9c64b8d056c056d6081cb35c092b16"
     },
     "ips.txt": {
-      "rows": 133026,
-      "sha256": "92ee1070c9dfb3054bbdae5ede047f27aa135927025099c10db524af925974e5"
+      "rows": 138726,
+      "sha256": "2dfe9481cb7f9a848c9226bc0ecf7f8c31b49da39d3223822d1d5a9b16e8ce6c"
     }
   },
-  "generated_at": "2026-08-29T10:46:29Z"
+  "generated_at": "2026-08-30T09:43:35Z"
 }
